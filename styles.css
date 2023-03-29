@@ -1,0 +1,42 @@
+input {
+    width: 50%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 75%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 8px 0;
+
+}
+
+select {
+    width: 50%;
+    padding: 6px 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: lightgray;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    width: 75%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 8px 0;
+    cursor: pointer;
+}
